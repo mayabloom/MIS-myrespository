@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1. Sumof3", "P1. Sumof3\P1. Sumof3.csproj", "{46C632AC-F8C7-4557-BFCC-F372EF651700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46C632AC-F8C7-4557-BFCC-F372EF651700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C632AC-F8C7-4557-BFCC-F372EF651700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C632AC-F8C7-4557-BFCC-F372EF651700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C632AC-F8C7-4557-BFCC-F372EF651700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64D594F8-7195-4B6A-8B14-93D04C4E8806}
+	EndGlobalSection
+EndGlobal
