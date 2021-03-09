@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redo Participation  HW 1", "Redo Participation  HW 1\Redo Participation  HW 1.csproj", "{B2847F8C-B071-47D9-A231-F37EA0DAE432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2847F8C-B071-47D9-A231-F37EA0DAE432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2847F8C-B071-47D9-A231-F37EA0DAE432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2847F8C-B071-47D9-A231-F37EA0DAE432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2847F8C-B071-47D9-A231-F37EA0DAE432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C8F53D1-2C97-49F8-A5F9-F65B3C9CAA47}
+	EndGlobalSection
+EndGlobal
