@@ -1,35 +1,45 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace Collections__Lists
+namespace Collections_3_15
 {
     class Program
     {
         static void Main(string[] args)
         {
-            List<string> favoriteThings = new List<string>();
+            string[] studentIds = new string[3];
+            double[] studentGPAs = { 3.0, 4.0, 2.5 };
 
-            string answer;
-            do
+            studentIds[0] = "1";
+            studentIds[1] = "2";
+            studentIds[2] = "3";
+
+            //for (int i = 0; i < studentIds.Length; i++)
+            //{
+            //    string id = studentIds[i];
+            //    Console.Write($"{id} ");
+            //}
+
+            
+
+            foreach (string id in studentIds)
             {
-                Console.WriteLine("Name one of your favorite things");
-                answer = Console.ReadLine();
+                Console.Write($"{id} ");
+            }
 
-                favoriteThings.Add(answer);
+            Console.WriteLine("Whose GPA do you want to see?");
+            string searchID = Console.ReadLine();
 
-                Console.WriteLine("Do you have another favorite thing?");
-                answer = Console.ReadLine();
+            for (int i = 0; i < studentIds.Length; i++)
+            {
+                string id = studentIds[i];
+                double gpa = studentGPAs[i];
 
-            } while (answer.ToLower()[0] == 'y');
-
-            Random rand = new Random();
-            int index = rand.Next(0, favoriteThings.Count );
-
-            Console.WriteLine(favoriteThings[index]);
-
-
-
-
+                if (id == searchID)
+                {
+                    Console.WriteLine($" {id} - {gpa.ToString("N3")}");
+                }
+                
+            }
         }
     }
 }

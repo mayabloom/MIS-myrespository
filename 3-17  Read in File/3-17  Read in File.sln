@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-17  Read in File", "3-17  Read in File\3-17  Read in File.csproj", "{3374DEC9-11BA-4B96-A200-EEDD214A74EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02C227FE-7439-408F-B917-FBB3801E7B65}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\geoMap.csv = ..\..\..\..\Downloads\geoMap.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3374DEC9-11BA-4B96-A200-EEDD214A74EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3374DEC9-11BA-4B96-A200-EEDD214A74EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3374DEC9-11BA-4B96-A200-EEDD214A74EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3374DEC9-11BA-4B96-A200-EEDD214A74EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E16D0902-97C2-4D52-B519-99F0E065008E}
+	EndGlobalSection
+EndGlobal
