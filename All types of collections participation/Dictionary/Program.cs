@@ -46,50 +46,55 @@ namespace Dictionary
                     double grade = Convert.ToDouble(Console.ReadLine());
                     gradesinputed.Add(grade);
 
-                   
+
 
                     while (true)
                     {
                         Console.WriteLine("Do you want to add another grade? >>");
                         answer = Console.ReadLine();
 
-                        Console.WriteLine("What is the grade for the class?");
+                        Console.WriteLine("What is the grade for the class? (ex: .95, .86)");
                         grade = Convert.ToDouble(Console.ReadLine());
                         gradesinputed.Add(grade);
 
                         if (students.ContainsKey(courseCode) == false)
                         {
                             students.Add(courseCode, gradesinputed);
-
+                            break;
                         }
                         else
                         {
 
                             Console.WriteLine("Already contains that key");
                         }
+
                     }
-
-
-
-
                 }
+
+                Console.WriteLine("Do you want to add another course and grade? >>");
+                answer = Console.ReadLine();
+
             } while (answer.ToLower()[0] == 'y');
 
 
-            double totalpoints = 0;
+            double listedgrades = 0;
 
 
             foreach (string courses in students.Keys)
             {
+                double totalpoints = 0;
                 for (int i = 0; i < students[courses].Count; i++)
                 {
                     totalpoints = students[courses][i] + totalpoints;
-                   
+                    listedgrades = students[courses].Count;
                 }
 
-                double average = totalpoints / students[courses].Count;
-                Console.WriteLine($"The average of your exam scores is {average.ToString("P2")}");
+
+
+                double average = totalpoints / listedgrades;
+                Console.WriteLine($"The average of your {courses} scores is {average.ToString("P2")}");
             }
+
 
 
             //for (int i = 0; i < students.Count; i++)
@@ -101,5 +106,10 @@ namespace Dictionary
 
 
         }
-    } }
+    }
+}
+
+
+
+
 
