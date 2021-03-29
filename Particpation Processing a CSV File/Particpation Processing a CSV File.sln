@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Particpation Processing a CSV File", "Particpation Processing a CSV File\Particpation Processing a CSV File.csproj", "{9BEE07EC-BF21-499F-B4F3-B702877DAC1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BEE07EC-BF21-499F-B4F3-B702877DAC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEE07EC-BF21-499F-B4F3-B702877DAC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEE07EC-BF21-499F-B4F3-B702877DAC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEE07EC-BF21-499F-B4F3-B702877DAC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6B508FC-CA18-4625-9D4E-50D8A5A110BD}
+	EndGlobalSection
+EndGlobal
