@@ -12,7 +12,7 @@ namespace In_class_exam_4_5
                 Console.WriteLine("Please input your grade in the course >>");
                 double grade = Convert.ToDouble(Console.ReadLine());
 
-                string lg = ConvertGradetoLetterGrade(grade);
+                string lg = ConvertGradetoLetterGrade(grade); // method will never get ran without this line if we don't call this method
                 Console.WriteLine($"Congratulations you have an {lg} in the course");
 
                 Console.WriteLine("Do you want to convert another grade? Yes or No >>");
@@ -26,7 +26,7 @@ namespace In_class_exam_4_5
         /// </summary>
         /// <param name="anyVariableNameWeWantThisBelongsToThisMethod"> The grade to convert to a letter grade (e.g. 98)</param>
         /// <returns> Returns a string that is the letter grade of the input. N/A if it is below 0</returns>
-        static string ConvertGradetoLetterGrade(double anyVariableNameWeWantThisBelongsToThisMethod)
+        static string ConvertGradetoLetterGrade(double anyVariableNameWeWantThisBelongsToThisMethod)// method that accepts parameter type double
         {
             string letterGrade;
             if (anyVariableNameWeWantThisBelongsToThisMethod >=90)
