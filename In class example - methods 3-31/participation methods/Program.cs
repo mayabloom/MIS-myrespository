@@ -8,46 +8,60 @@ namespace participation_methods
     {
         static void Main(string[] args)
         {
+
+            string userinformation = DeveloperInformation("Maya Bloom", "MIS3013", "4/6/2021");
+            Console.WriteLine(userinformation);
+
+
+
+
             double sum = Add(3, 4); //argument
-            Console.WriteLine(sum);
-
             double sub = Subtract(7, 4);
-            Console.WriteLine(sub);
-
             double mul = Multiply(3, 5);
-            Console.WriteLine(mul);
-
             double div = Divide(10, 5);
-            Console.WriteLine(div);
 
-            int answer;
+            string answer;
+            string input;
 
-            Console.WriteLine(" What calculation would you like to perform?");
-            Console.WriteLine(" 1 for Addition");
-            Console.WriteLine(" 2 for Subtraction");
-            Console.WriteLine(" 3 for Multiplication");
-            Console.WriteLine(" 4 for Division");
-            answer = Convert.ToInt32(Console.ReadLine());
 
-            if (answer == 1 )
+            do
             {
-                Console.WriteLine(sum);
-            }
-            else if (answer == 2)
-            {
-                Console.WriteLine(sub);
-            }
+                Console.WriteLine(" What calculation would you like to perform? (e.g. addition, subtraction, multiplication, division >>)");
+                answer = Console.ReadLine().ToLower();
+               
 
-            else if (answer == 3)
-            {
-                Console.WriteLine(mul);
-            }
-            else
-            {
-                Console.WriteLine(div);
-            }
+                if (answer == "addition")
+                {
+                    Console.WriteLine(sum);
+                }
+                else if (answer == "subtraction")
+                {
+                    Console.WriteLine(sub);
+                }
+
+                else if (answer == "multiplication")
+                {
+                    Console.WriteLine(mul);
+                }
+                else
+                {
+                    Console.WriteLine(div);
+                }
+
+                Console.WriteLine("Do you want to do another calculation? Yes or No >>");
+                input = Console.ReadLine();
+
+                if (input.ToLower()[0] == 'n')
+                {
+                    Console.WriteLine(" Thank you for using this service");
+                }
+
+
+            } while (input.ToLower()[0] == 'y');
 
             
+
+
 
         }
 
@@ -62,7 +76,7 @@ namespace participation_methods
         {
             double number = val1 + val2;
             return number;
-            
+
 
             //return val1 + val2;
         }
@@ -86,7 +100,13 @@ namespace participation_methods
             return number;
         }
 
-       
+        static string DeveloperInformation(string userinfo, string classname, string date)
+        {
+            return userinfo + " " + classname + " " + date;
+        }
+
+
+
 
 
     }
