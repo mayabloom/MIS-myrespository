@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Participation Classes-Toys", "Participation Classes-Toys\Participation Classes-Toys.csproj", "{A81AC50B-7092-4A5B-BB14-463354AB05C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_ToyBox", "Classes_ToyBox\Classes_ToyBox.csproj", "{24B5217E-11A0-4CA6-82E3-7A497FD9FCC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81AC50B-7092-4A5B-BB14-463354AB05C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81AC50B-7092-4A5B-BB14-463354AB05C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81AC50B-7092-4A5B-BB14-463354AB05C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81AC50B-7092-4A5B-BB14-463354AB05C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B5217E-11A0-4CA6-82E3-7A497FD9FCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B5217E-11A0-4CA6-82E3-7A497FD9FCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B5217E-11A0-4CA6-82E3-7A497FD9FCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B5217E-11A0-4CA6-82E3-7A497FD9FCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F0EF391-E3EB-4412-8043-073A69662D36}
+	EndGlobalSection
+EndGlobal
